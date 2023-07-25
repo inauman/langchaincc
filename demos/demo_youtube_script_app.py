@@ -8,8 +8,6 @@ from langchain.chains import LLMChain, SequentialChain
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
 
-# .streamlit/secrets.toml
-#OPENAI_API_KEY = "YOUR_API_KEY"
 
 # App Framework
 st.title("🦜️🔗 LangChain ChatGPT")

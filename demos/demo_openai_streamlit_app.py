@@ -5,12 +5,9 @@ from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 from langchain import PromptTemplate
 
-# .streamlit/secrets.toml
-#OPENAI_API_KEY = "YOUR_API_KEY"
 
 st.set_page_config(page_title="🦜🔗 Blog Outline Generator App")
 st.title('🦜🔗 Blog Outline Generator App')
-
 
 def generate_response(topic):
     llm = OpenAI(model_name='text-davinci-003')
